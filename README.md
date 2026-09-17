@@ -1,33 +1,31 @@
 ###### README.md >> markdown 
 # 🇫🇷 BIO‑DF  
-###### Bureau d’Intelligence de l’Ombre – Division Fraude  
-###### *Entité Cyber & Renseignement – Armée de Terre Française*  
+###### *Bureau d’Intelligence de la Sécurité*
+###### *Entité Cyber & Renseignement de l'Armée de Terre Française*  
 
 ---
 
 ### 🟦 1. Présentation stratégique
-- Le **Bureau d’Intelligence de l’Ombre – Division Fraude (BIO‑DF)** est une entité *cyber‑renseignement*, conçue dans l’esprit des structures modernes de la **cyberdéfense française** :  
+- Le **Bureau d’Intelligence de la sécurité – Division Fraude (BIO‑DF)** est une entité *cyber‑renseignement*, conçue dans l’esprit des structures modernes de la **cyberdéfense française** :  
    - Commandement de la Cyberdéfense (**COMCYBER**)  
    - Direction Générale de l’Armement (**DGA**)  
    - Direction Interarmées des Réseaux d’Infrastructure et des Systèmes d’Information (**DIRISI**)  
 
-- BioDF incarne une **capacité avancée de lutte contre la fraude mondiale**, intégrant des technologies de pointe, des méthodes de renseignement multi‑sources et une doctrine opérationnelle inspirée des unités d’élite de l’Armée de Terre, dont l’héritage de la **Légion Étrangère**.
+- Il incarne une **capacité avancée de lutte contre la fraude mondiale**, intégrant des technologies de pointe, des méthodes de renseignement *multi‑sources* et une doctrine opérationnelle inspirée des unités d’élite de l’*Armée de Terre*, dont l’héritage de la **Légion Étrangère**.
 
 ---
 
 ### 🟦 2. Identités officielles
-### 🜂 Institutionnel  
-**Bureau d’Intelligence de l’Ombre – Division Fraude**  
-**B.I.O – Division Fraude (BIO‑DF)**  
-> Identité utilisée dans les documents administratifs, les rapports stratégiques et les communications inter‑ministérielles.
+**Division sécurité**  
+> Identité utilisée dans les documents administratifs, les rapports stratégiques et les communications *inter‑ministérielles*.
 
 ### 🜁 Nom opérationnel  
-**Direction des Opérations de Renseignement de l’Ombre – Section Anti‑Fraude**  
-**DORO‑SAF**  
-> Appellation déployée dans les opérations cyber, les missions de contre‑fraude et les actions de neutralisation.
+### Direction des Opérations de Renseignement
+- Section *Anti‑Fraude*
+   - Appellation déployée dans les opérations cyber, les missions de *contre‑fraude* et les actions de neutralisation.
 
 ### 🜃 Nom interne  
-**L’Ombre – Section Fraude**  
+**Section Fraude**  
 > Nom court utilisé par les opérateurs et analystes.
 
 ### 🜄 Nom crypté  
@@ -37,7 +35,7 @@
 
 ---
 
-## 🟦 3. Mission stratégique
+### 🟦 3. Mission stratégique
 
 > **Détecter, corréler et neutraliser les menaces frauduleuses globales afin de protéger les intérêts français.**
 
