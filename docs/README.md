@@ -1,18 +1,22 @@
-# 📚 Documentation BISAT
-Bienvenue dans le dossier **docs/** du projet BISAT.
+###### README.md >> markdown 
+# 📚 Documentation
+- BisAT
+- Bienvenue dans le dossier **docs/** du projet BISAT.
 
-## Contenu
+### Contenu
 - **doctrine.md** — Doctrine opérationnelle BISAT  
 - **architecture.md** — Architecture stratégique & technique  
 - **organigramme.md** — Organigramme institutionnel SECRET‑DÉFENSE  
 - **mentions-legales.md** — Mentions légales & cadre d’utilisation  
 
-## Objectif
+### Objectif
 Fournir une base conceptuelle claire, structurée et institutionnelle pour comprendre :
+```text
 - la mission BISAT  
 - son organisation  
 - ses protocoles  
-- ses valeurs  
+- ses valeurs
+```
 
-## Statut
+### Statut
 Documentation **conceptuelle**, **pédagogique**, **non affiliée** aux institutions militaires françaises.
