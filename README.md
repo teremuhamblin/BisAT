@@ -1,125 +1,87 @@
-###### README.md >> markdown 
-# 🇫🇷 BISAT 
-###### *Bureau d’Intelligence à la Sécurité de l'Armée de Terre*
+# 🜔 Le BisAT
+Bureau d’Intelligence de la Sécurité
+**Armée de Terre**
+<div align="center"><i>Classification : SECRET DÉFENSE
+   Diffusion strictement contrôlée</i></div>
 
 ---
 
-### 🟦 1. Présentation stratégique
-- Le **Bureau d’Intelligence de la sécurité de l'Armee de Terre** est une division du *renseignement*, conçue dans l’esprit des structures modernes de la **CyberDéfense Française** :  
-   - Commandement de la CyberDéfense (**COMCYBER**)  
-   - Direction Générale de l’Armement (**DGA**)  
-   - Direction Interarmées des Réseaux d’Infrastructure et des Systèmes d’Information (**DIRISI**)  
-
-- Il incarne une **capacité avancée de lutte contre la fraude mondiale**, intégrant des technologies de pointe, des méthodes de renseignement *multi‑sources* et une doctrine opérationnelle inspirée des unités d’élite de l’*Armée de Terre*, dont l’héritage de la **Légion Étrangère**.
+### 🜟 1. Mandat classifié
+Le BISAT constitue une structure conceptuelle de **cyber‑renseignement** dédiée à *la protection des intérêts nationaux*  
+Ses missions s’inscrivent dans le cadre doctrinal des entités françaises de *cyber‑défense* **(COMCYBER, DGA, DIRISI)** et reposent sur des protocoles à **diffusion restreinte**.
 
 ---
 
-### 🟦 2. Identités officielles
-**Division sécurité**  
-> Identité utilisée dans les documents administratifs, les rapports stratégiques et les communications *inter‑ministérielles*.
-
-### 🜁 Nom opérationnel  
-### Direction des Opérations du Renseignement
-- **Section Anti‑Fraude**
-   - Appellation déployée dans les opérations *cyber*, les missions de *contre‑fraude* et les actions de neutralisation.
-
-### 🜃 Nom interne  
-**Fraude**
-- Nom court utilisé par les opérateurs et analystes.
-
-### 🜄 Nom crypté  
-**SIB‑DF**  
-**Shadow Intelligence Bureau – Fraud Division**
-- Signature codée pour les transmissions sécurisées, identifiants internes et marquages confidentiels.
-
----
-
-### 🟦 3. Mission stratégique
-
-> **Détecter, corréler et neutraliser les menaces frauduleuses globales afin de protéger les intérêts français.**
-
-- Il opère dans un cadre cyber‑stratégique :  
-   - Analyse des flux numériques  
-   - Détection des réseaux frauduleux  
-   - Production de renseignement exploitable  
-   - Soutien aux structures de commandement et aux partenaires institutionnels
-
----
-
-### 🟦 4. Doctrine opérationnelle
-
-> **COMCYBER / DGA**
-
-### 🔹 **Anticipation**  
-- Surveillance continue des signaux, détection des anomalies, analyse prédictive.
-
-### 🔹 **Protection**  
-- Sécurisation des infrastructures critiques, identification des vecteurs de fraude, réduction des surfaces d’attaque.
-
-### 🔹 **Intervention**  
-- Neutralisation des réseaux frauduleux, démantèlement des structures numériques malveillantes.
-
-### 🔹 **Résilience**  
-Maintien opérationnel, adaptation permanente, continuité de service en environnement hostile.
-
----
-
-### 🟦 5. Organisation interne
-### 🔸 Section SIGINT
-- Renseignement technique
-- Analyse des signaux, détection d’anomalies, surveillance cyber, cartographie des flux frauduleux.
-
-### 🔸 Section HUMINT
-- Renseignement humain
-   - Profilage, analyse comportementale, interactions humaines contrôlées, identification des acteurs.
-
-### 🔸 Section CYBEROPS
-- Opérations cyber
-   - Neutralisation de deepfakes, démantèlement de réseaux numériques, lutte contre bots et usurpations.
-
-### 🔸 Section FUSION
-- Corrélation multi‑sources
-   - Agrégation des données bancaires, documentaires, biométriques, télécom, e‑commerce, réseaux sociaux.
-
-### 🔸 Section ATLAS
-- Cartographie mondiale
-   - Production de cartes dynamiques, zones rouges, clusters, projections stratégiques.
-
----
-
-## 🟦 6. Valeurs fondamentales  
-
-> Inspirées de la Légion Étrangère et des unités cyber de l’Armée de Terre :
-
-- Discipline opérationnelle  
-- Engagement total  
-- Résilience face à l’adversité  
-- Discrétion absolue  
-- Excellence technique  
-- Efficacité dans l’ombre  
-- Adaptation aux menaces modernes
-
----
-
-### 🟦 7. Slogan officiel
-### **« Nous voyons ce que les autres ne voient pas. »**
-
----
-
-### 🟦 8. Statut du projet
-- Il est une **Institutionnelle**, inspirée des dtandard **COMCYBER / DGA**  
-- Ce projet sert de base conceptuelle pour :  
-   - des plateformes cyber‑renseignement,  
-   - des outils de lutte contre la fraude,  
-   - des scénarios stratégiques,  
-   - des environnements de simulation ou de formation.
-
----
-
-### 🟦 9. Mentions
+### 🜞 2. Architecture confidentielle
 ```text
-Ce document est une création conceptuelle destinée à un usage pédagogique.
-Aucune affiliation réelle avec l’Armée de Terre, COMCYBER ou la DGA.
+[SECRET]  Architecture Opérationnelle BISAT
+────────────────────────────────────────────
+   NIVEAU 1 : Commandement Cyber
+   NIVEAU 2 : BisAT – Cellule de Sécurité
+────────────────────────────────────────────
+   SIGINT     HUMINT     CYBEROPS
+   FUSION     ATLAS      DOCTRINE
+────────────────────────────────────────────
+   Flux classifiés – accès contrôlé
+```
+
+---
+
+### 🜙 3. Missions sensibles
+- ``Surveillance des flux numériques`` à haute criticité : 
+   - Détection des structures frauduleuses organisées  
+   - Corrélation ``multi‑sources`` (bancaire, biométrique, télécom, OSINT)  
+   - Neutralisation des réseaux numériques hostiles  
+   - Production de renseignement à diffusion restreinte  
+
+---
+
+### 🜚 4. Doctrine opérationnelle
+```md
+"Anticipation" — identification précoce des signaux faibles  
+:Protection" — sécurisation des infrastructures sensibles  
+:Intervention" — démantèlement des réseaux frauduleux  
+"Résilience" — maintien opérationnel en environnement dégradé  
+```
+
+---
+
+### 🜛 5. Sections spécialisées
+- **SIGINT** — signaux, anomalies, cartographies classifiées  
+- **HUMINT** — acteurs, comportements, interactions contrôlées  
+- **CYBEROPS** — neutralisation de deepfakes, bots, usurpations  
+- **FUSION** — agrégation de données sensibles  
+- **ATLAS** — cartographies mondiales, zones rouges, clusters
+- 
+
+---
+
+### 🜜 6. Identités codées
+```text
+- Identité institutionnelle : Division Sécurité  
+- Nom opérationnel : Direction des Opérations du Renseignement – Section Anti‑Fraude  
+- Nom interne : Fraude  
+- Nom crypté : SIB‑DF (Shadow Intelligence Bureau – Fraud Division)  
+```
+
+---
+
+### 🜝 7. Valeurs fondamentales
+- Discipline, Excellence, Discrétion, Engagement, Résilience, Adaptation  
+<i>Conformes aux standards des unités cyber et des forces spéciales françaises.</i>
+
+---
+
+### 🜠 8. Slogan classifié
+> « Nous voyons ce que les autres ne voient pas. »
+
+---
+
+### 🜡 9. Mentions légales
+Documentation et Conceptuel :
+```md
+- Destiné à un usage militaire.  
+- Affiliation avec l’Armée de Terre, COMCYBER et la DGA.
 ```
 
 ---
