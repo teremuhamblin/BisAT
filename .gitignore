@@ -1,0 +1,72 @@
+##############################################
+# 🪖 GITIGNORE MILITAIRE — BISAT v7.0
+# Inspiré COMCYBER / DGA / DIRISI / Armée de Terre
+##############################################
+
+# Logs & Temp
+*.log
+*.log.*
+logs/
+tmp/
+temp/
+cache/
+session/
+
+# Systèmes sensibles
+*.enc
+*.classified
+*.sd
+*.cd
+*.secure
+*.crypto
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+.eggs/
+build/
+dist/
+
+# Node / JS
+node_modules/
+npm-debug.log*
+yarn-error.log*
+.pnpm-store/
+
+# OSINT / Cyber
+intel/
+missions/
+ops/
+reports/
+shadow/
+deepfake/
+botnets/
+
+# Assets
+*.svg.tmp
+*.png.tmp
+*.jpg.tmp
+
+# Environnements
+.env
+.env.*
+venv/
+.venv/
+
+# Tests
+coverage/
+pytest_cache/
+htmlcov/
+
+# CI/CD
+.github/workflows/*.tmp
+.github/workflows/*.bak
+
+# Secret Défense (fictif)
+SD/
+CD/
+AFCI/
+ESSD/
