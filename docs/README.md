@@ -12,7 +12,7 @@
 ### Objectif
 Fournir une base conceptuelle claire, structurée et institutionnelle pour comprendre :
 ```text
-- la mission BISAT  
+- la mission BisAT
 - son organisation  
 - ses protocoles  
 - ses valeurs
