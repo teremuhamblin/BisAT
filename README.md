@@ -28,20 +28,22 @@ Ses missions s’inscrivent dans le cadre doctrinal des entités françaises de 
 ---
 
 ### 🜙 3. Missions sensibles
-- ``Surveillance des flux numériques`` à haute criticité : 
+- ``Surveillance des flux numériques`` à haute criticité :
+```md
    - Détection des structures frauduleuses organisées  
    - Corrélation ``multi‑sources`` (bancaire, biométrique, télécom, OSINT)  
    - Neutralisation des réseaux numériques hostiles  
    - Production de renseignement à diffusion restreinte  
+```
 
 ---
 
 ### 🜚 4. Doctrine opérationnelle
 ```md
-"Anticipation" — identification précoce des signaux faibles  
+:Anticipation" — identification précoce des signaux faibles  
 :Protection" — sécurisation des infrastructures sensibles  
 :Intervention" — démantèlement des réseaux frauduleux  
-"Résilience" — maintien opérationnel en environnement dégradé  
+:Résilience" — maintien opérationnel en environnement dégradé  
 ```
 
 ---
