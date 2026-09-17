@@ -14,7 +14,7 @@ Ses missions s’inscrivent dans le cadre doctrinal des entités françaises de 
 
 ### 🜞 2. Architecture confidentielle
 ```text
-[SECRET]  Architecture Opérationnelle BISAT
+[SECRET]  Architecture Opérationnelle BisAT
 ────────────────────────────────────────────
    NIVEAU 1 : Commandement Cyber
    NIVEAU 2 : BisAT – Cellule de Sécurité
