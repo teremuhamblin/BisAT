@@ -2,7 +2,7 @@
 
 Bureau d’Intelligence de la Sécurité
 **Armée de Terre**
-<div align="center"><i>Classification : SECRET DÉFENSE
+<div align="center"><i>Classification : Armée de Terre 
    Diffusion strictement contrôlée</i></div>
    
 ---
