@@ -1,0 +1,7 @@
+<svg width="240" height="240" xmlns="http://www.w3.org/2000/svg">
+  <rect width="240" height="240" fill="#0a0f1c"/>
+  <circle cx="120" cy="120" r="90" stroke="#1e3a8a" stroke-width="8" fill="none"/>
+  <circle cx="90" cy="120" r="25" fill="#1e3a8a"/>
+  <circle cx="150" cy="120" r="25" fill="#e11d48"/>
+  <text x="120" y="210" fill="#fff" font-size="22" text-anchor="middle">Fusion</text>
+</svg>
