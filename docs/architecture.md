@@ -29,6 +29,8 @@
 ```
 
 ### 🜞 2. Explications et details
+- Le schéma complet de l’architecture opérationnelle est disponible dans :
+`assets/schemas/architecture_advanced.svg`
 - Niveau 0 : Cadre doctrinal national (COMCYBER / DGA / DIRISI).  
 - Niveau 1 : Noyau BISAT, centre décisionnel.  
 - Niveau 2 : Modules spécialisés assurant la collecte, l’analyse et la neutralisation.  
