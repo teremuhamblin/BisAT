@@ -7,26 +7,33 @@ Il constitue la base de l’identité visuelle et documentaire du Bureau d’Int
 
 ## 📁 Structure
 
-### `badges/`
-Insignes militaires, écussons, identités visuelles tactiques.
+### 🛡️ `logos/`
+Logos institutionnels du projet.
 
 Contenu :
-- `bisat_badge.svg` — Badge officiel BisAT
-- Variants futurs : SIGINT, HUMINT, CyberOps, Fusion, Atlas
+- `logo_bisat.svg` — Logo officiel BisAT
 
-### `schemas/`
+---
+
+### 🪖 `badges/`
+Insignes militaires des divisions opérationnelles.
+
+Contenu :
+- `bisat_badge.svg` — Badge principal
+- `badge_sigint.svg` — Division SIGINT
+- `badge_humint.svg` — Division HUMINT
+- `badge_cyberops.svg` — Division CyberOps
+- `badge_fusion.svg` — Division Fusion
+- `badge_atlas.svg` — Division Atlas
+
+---
+
+### 🧩 `schemas/`
 Schémas techniques, architectures, flux, topologies.
 
 Contenu :
-- `architecture_bisat.svg` — Architecture globale du système
-- Schémas futurs : pipelines, matrices, cartographies
-
-### `logos/`
-Logos institutionnels, versions vectorielles, branding BisAT.
-
-Contenu :
-- `logo_bisat.svg` (à venir)
-- Variants monochromes / tactiques
+- `architecture_bisat.svg` — Architecture globale
+- `architecture_advanced.svg` — Schéma ultra‑complexe (pipelines, flux, matrice Fusion, topologie cyber)
 
 ---
 
@@ -37,8 +44,8 @@ Contenu :
   - Bleu profond (#1e3a8a)
   - Gris acier (#0a0f1c)
   - Rouge tactique (#e11d48)
-- **Style : militaire, cyber‑défense, géométrique**
-- **Lisibilité maximale** (polices épaisses, contrastes forts)
+- Style militaire cyber‑défense
+- Identité cohérente entre logos, badges et schémas
 
 ---
 
