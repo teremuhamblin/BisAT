@@ -1,0 +1,31 @@
+<svg width="680" height="420" xmlns="http://www.w3.org/2000/svg">
+  <rect width="680" height="420" fill="#0a0f1c"/>
+
+  <!-- Title -->
+  <text x="340" y="40" font-size="28" fill="#e11d48" text-anchor="middle" font-family="Arial Black">
+    Architecture BisAT
+  </text>
+
+  <!-- Modules -->
+  <rect x="40" y="100" width="140" height="80" fill="#1e3a8a"/>
+  <text x="110" y="145" font-size="18" fill="#fff" text-anchor="middle">SIGINT</text>
+
+  <rect x="200" y="100" width="140" height="80" fill="#1e3a8a"/>
+  <text x="270" y="145" font-size="18" fill="#fff" text-anchor="middle">HUMINT</text>
+
+  <rect x="360" y="100" width="140" height="80" fill="#1e3a8a"/>
+  <text x="430" y="145" font-size="18" fill="#fff" text-anchor="middle">CyberOps</text>
+
+  <rect x="520" y="100" width="140" height="80" fill="#1e3a8a"/>
+  <text x="590" y="145" font-size="18" fill="#fff" text-anchor="middle">Fusion</text>
+
+  <!-- Atlas -->
+  <rect x="260" y="240" width="160" height="80" fill="#1e3a8a"/>
+  <text x="340" y="285" font-size="18" fill="#fff" text-anchor="middle">Atlas</text>
+
+  <!-- Arrows -->
+  <line x1="110" y1="180" x2="340" y2="240" stroke="#e11d48" stroke-width="4"/>
+  <line x1="270" y1="180" x2="340" y2="240" stroke="#e11d48" stroke-width="4"/>
+  <line x1="430" y1="180" x2="340" y2="240" stroke="#e11d48" stroke-width="4"/>
+  <line x1="590" y1="180" x2="340" y2="240" stroke="#e11d48" stroke-width="4"/>
+</svg>
