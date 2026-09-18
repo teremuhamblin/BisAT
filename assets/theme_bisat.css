@@ -1,0 +1,60 @@
+:root {
+  --bisat-blue: #1e3a8a;
+  --bisat-dark: #0a0f1c;
+  --bisat-red: #e11d48;
+  --bisat-grey: #9ca3af;
+  --bisat-green: #10b981;
+}
+
+body {
+  background-color: var(--bisat-dark);
+  color: #e5e7eb;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Arial, sans-serif;
+}
+
+a {
+  color: var(--bisat-red);
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+
+header, .bisat-header {
+  background-color: var(--bisat-blue);
+  color: #fff;
+  padding: 1rem 2rem;
+  border-bottom: 2px solid var(--bisat-red);
+}
+
+.bisat-card {
+  background-color: var(--bisat-blue);
+  border: 1px solid var(--bisat-grey);
+  padding: 1rem 1.5rem;
+  margin: 1rem 0;
+  border-radius: 4px;
+}
+
+.bisat-button-primary {
+  background-color: var(--bisat-blue);
+  color: #fff;
+  border: none;
+  padding: 0.6rem 1.2rem;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.bisat-button-primary:hover {
+  background-color: var(--bisat-red);
+}
+
+.bisat-button-secondary {
+  background-color: var(--bisat-dark);
+  color: #e5e7eb;
+  border: 1px solid var(--bisat-grey);
+  padding: 0.6rem 1.2rem;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.bisat-button-secondary:hover {
+  border-color: var(--bisat-red);
+}
