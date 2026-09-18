@@ -1,0 +1,8 @@
+<svg width="240" height="240" viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <rect width="240" height="240" fill="#0a0f1c"/>
+  <circle cx="120" cy="120" r="90" stroke="#1e3a8a" stroke-width="8" fill="none"/>
+  <polygon points="120,40 150,120 120,200 90,120" fill="#1e3a8a"/>
+  <text x="120" y="125" font-size="22" fill="#e11d48" text-anchor="middle" font-family="Arial Black">
+    BISAT
+  </text>
+</svg>
