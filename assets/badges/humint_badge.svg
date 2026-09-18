@@ -1,0 +1,7 @@
+<svg width="240" height="240" xmlns="http://www.w3.org/2000/svg">
+  <rect width="240" height="240" fill="#0a0f1c"/>
+  <circle cx="120" cy="120" r="90" stroke="#1e3a8a" stroke-width="8" fill="none"/>
+  <path d="M120 60 C160 80 160 160 120 180 C80 160 80 80 120 60" 
+        stroke="#e11d48" stroke-width="6" fill="none"/>
+  <text x="120" y="200" fill="#fff" font-size="22" text-anchor="middle">HUMINT</text>
+</svg>
