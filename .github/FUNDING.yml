@@ -1,15 +1,37 @@
-# These are supported funding model platforms
+# ============================================================
+#  BisAT — Funding Configuration (Custom Military Edition)
+#  Auteur : Major Hamblin (Teremu)
+#  Projet : BisAT — Cyberdéfense, Architecture, Renseignement
+# ============================================================
 
-github: #Replace with up to 4 GitHub Sponsors-enabled usernames e.g., [user1, user2]
-patreon: # Replace with a single Patreon username
-open_collective: # Replace with a single Open Collective username
-ko_fi: # Replace with a single Ko-fi username
-tidelift: # Replace with a single Tidelift platform-name/package-name e.g., npm/babel
-community_bridge: # Replace with a single Community Bridge project-name e.g., cloud-foundry
-liberapay: # Replace with a single Liberapay username
-issuehunt: # Replace with a single IssueHunt username
-lfx_crowdfunding: # Replace with a single LFX Crowdfunding project-name e.g., cloud-foundry
-polar: # Replace with a single Polar username
-buy_me_a_coffee: # Replace with a single Buy Me a Coffee username
-thanks_dev: # Replace with a single thanks.dev username
-custom: # Replace with up to 4 custom sponsorship URLs e.g., ['link1', 'link2']
+# --- Plateforme principale : GitHub Sponsors ---
+github: teremuhamblin
+
+# --- Plateformes de soutien communautaire ---
+patreon: teremuhamblin
+ko_fi: teremuhamblin
+buy_me_a_coffee: teremuhamblin
+liberapay: teremuhamblin
+
+# --- Open Collective (projets open-source structurés) ---
+open_collective: bisat-project
+
+# --- Liens institutionnels / personnalisés ---
+custom:
+  - "https://github.com/sponsors/teremuhamblin"
+  - "https://patreon.com/teremuhamblin"
+  - "https://ko-fi.com/teremuhamblin"
+  - "https://buymeacoffee.com/teremuhamblin"
+  - "https://opencollective.com/bisat-project"
+
+# --- Section Cyberdéfense / ESSD (optionnelle) ---
+institutionnel:
+  contact: "bisat-sec@protonmail.com"
+  doctrine: "Support aux projets de cybersécurité, renseignement, architecture critique"
+  classification: "Non-classifié — diffusion contrôlée"
+
+# --- Crypto (optionnel, désactivé par défaut) ---
+# crypto:
+#   bitcoin: "bc1qXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+#   ethereum: "0xXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+#   monero: "4XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
