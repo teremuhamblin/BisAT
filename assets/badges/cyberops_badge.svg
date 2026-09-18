@@ -1,0 +1,7 @@
+<svg width="240" height="240" xmlns="http://www.w3.org/2000/svg">
+  <rect width="240" height="240" fill="#0a0f1c"/>
+  <polygon points="120,40 180,120 120,200 60,120" 
+           fill="none" stroke="#1e3a8a" stroke-width="8"/>
+  <circle cx="120" cy="120" r="35" stroke="#e11d48" stroke-width="6" fill="none"/>
+  <text x="120" y="210" fill="#fff" font-size="22" text-anchor="middle">CyberOps</text>
+</svg>
