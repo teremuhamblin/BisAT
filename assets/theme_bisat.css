@@ -1,60 +1,218 @@
+/* ============================
+   🎖️ BISAT+ — Theme officiel
+   ============================ */
+
 :root {
   --bisat-blue: #1e3a8a;
+  --bisat-blue-light: #2a4db8;
   --bisat-dark: #0a0f1c;
+  --bisat-dark-light: #111827;
   --bisat-red: #e11d48;
+  --bisat-red-light: #f43f5e;
   --bisat-grey: #9ca3af;
+  --bisat-grey-light: #d1d5db;
   --bisat-green: #10b981;
+
+  --bisat-radius: 4px;
+  --bisat-transition: 0.18s ease-in-out;
 }
+
+/* ============================
+   Base
+   ============================ */
 
 body {
   background-color: var(--bisat-dark);
   color: #e5e7eb;
   font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Arial, sans-serif;
+  line-height: 1.6;
+  margin: 0;
 }
+
+/* ============================
+   Liens
+   ============================ */
 
 a {
   color: var(--bisat-red);
   text-decoration: none;
+  transition: var(--bisat-transition);
 }
 a:hover {
   text-decoration: underline;
+  color: var(--bisat-red-light);
 }
 
-header, .bisat-header {
+/* ============================
+   Header
+   ============================ */
+
+header,
+.bisat-header {
   background-color: var(--bisat-blue);
   color: #fff;
-  padding: 1rem 2rem;
+  padding: 1.2rem 2rem;
   border-bottom: 2px solid var(--bisat-red);
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.45);
 }
+
+/* ============================
+   Cards
+   ============================ */
 
 .bisat-card {
   background-color: var(--bisat-blue);
   border: 1px solid var(--bisat-grey);
-  padding: 1rem 1.5rem;
-  margin: 1rem 0;
-  border-radius: 4px;
+  padding: 1.2rem 1.5rem;
+  margin: 1.2rem 0;
+  border-radius: var(--bisat-radius);
+  box-shadow: 0 0 12px rgba(0, 0, 0, 0.35);
+  transition: var(--bisat-transition);
 }
 
+.bisat-card:hover {
+  border-color: var(--bisat-red);
+  box-shadow: 0 0 18px rgba(225, 29, 72, 0.35);
+}
+
+/* ============================
+   Boutons
+   ============================ */
+
+.bisat-button-primary,
+.bisat-button-secondary {
+  padding: 0.6rem 1.2rem;
+  border-radius: var(--bisat-radius);
+  cursor: pointer;
+  transition: var(--bisat-transition);
+  font-weight: 500;
+}
+
+/* --- Bouton primaire --- */
 .bisat-button-primary {
   background-color: var(--bisat-blue);
   color: #fff;
-  border: none;
-  padding: 0.6rem 1.2rem;
-  border-radius: 4px;
-  cursor: pointer;
+  border: 1px solid transparent;
 }
 .bisat-button-primary:hover {
   background-color: var(--bisat-red);
+  box-shadow: 0 0 10px rgba(225, 29, 72, 0.45);
 }
 
+/* --- Bouton secondaire --- */
 .bisat-button-secondary {
   background-color: var(--bisat-dark);
   color: #e5e7eb;
   border: 1px solid var(--bisat-grey);
-  padding: 0.6rem 1.2rem;
-  border-radius: 4px;
-  cursor: pointer;
 }
 .bisat-button-secondary:hover {
   border-color: var(--bisat-red);
+  color: var(--bisat-red-light);
+}
+
+/* ============================
+   Champs / Inputs
+   ============================ */
+
+input,
+textarea,
+select {
+  background-color: var(--bisat-dark-light);
+  color: #e5e7eb;
+  border: 1px solid var(--bisat-grey);
+  padding: 0.5rem 0.8rem;
+  border-radius: var(--bisat-radius);
+  transition: var(--bisat-transition);
+}
+
+input:focus,
+textarea:focus,
+select:focus {
+  border-color: var(--bisat-red);
+  outline: none;
+  box-shadow: 0 0 8px rgba(225, 29, 72, 0.45);
+}
+
+/* ============================
+   Séparateurs tactiques
+   ============================ */
+
+.bisat-divider {
+  border-bottom: 1px solid var(--bisat-grey);
+  margin: 1.5rem 0;
+  opacity: 0.4;
+}
+
+/* ============================
+   Grille tactique
+   ============================ */
+
+.bisat-grid {
+  display: grid;
+  gap: 1.2rem;
+}
+
+.bisat-grid-2 {
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.bisat-grid-3 {
+  grid-template-columns: repeat(3, 1fr);
+}
+
+/* ============================
+   Titres tactiques
+   ============================ */
+
+h1, h2, h3 {
+  font-weight: 700;
+  letter-spacing: 0.5px;
+}
+
+h1 {
+  color: var(--bisat-red-light);
+  text-transform: uppercase;
+}
+
+h2 {
+  color: var(--bisat-blue-light);
+}
+
+h3 {
+  color: var(--bisat-grey-light);
+}
+
+/* ============================
+   Alertes
+   ============================ */
+
+.bisat-alert {
+  padding: 1rem;
+  border-radius: var(--bisat-radius);
+  margin: 1rem 0;
+  font-weight: 500;
+}
+
+.bisat-alert-danger {
+  background-color: rgba(225, 29, 72, 0.15);
+  border-left: 4px solid var(--bisat-red);
+}
+
+.bisat-alert-success {
+  background-color: rgba(16, 185, 129, 0.15);
+  border-left: 4px solid var(--bisat-green);
+}
+
+/* ============================
+   Animations tactiques
+   ============================ */
+
+.bisat-pulse {
+  animation: bisatPulse 1.8s infinite;
+}
+
+@keyframes bisatPulse {
+  0% { opacity: 1; }
+  50% { opacity: 0.45; }
+  100% { opacity: 1; }
 }
