@@ -1,0 +1,18 @@
+<svg width="300" height="300" viewBox="0 0 300 300" xmlns="http://www.w3.org/2000/svg">
+  <rect width="300" height="300" fill="#0a0f1c"/>
+
+  <!-- Cercle extérieur -->
+  <circle cx="150" cy="150" r="120" stroke="#1e3a8a" stroke-width="10" fill="none"/>
+
+  <!-- Bouclier -->
+  <polygon points="150,60 210,120 210,200 150,260 90,200 90,120" 
+           fill="#1e3a8a" stroke="#e11d48" stroke-width="4"/>
+
+  <!-- Ligne centrale -->
+  <rect x="145" y="90" width="10" height="140" fill="#e11d48"/>
+
+  <!-- Texte -->
+  <text x="150" y="155" font-size="28" fill="#ffffff" text-anchor="middle" font-family="Arial Black">
+    BISAT
+  </text>
+</svg>
