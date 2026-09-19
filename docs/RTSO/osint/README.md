@@ -1,5 +1,7 @@
-# RTSO / OSINT
-## Région Terre Sud-Ouest – Renseignement d’Environnement
+###### README.md >> markdown 
+# RTSO
+### Région Terre Sud-Ouest
+- Renseignement d’Environnement
 
 Ce dossier contient les modules OSINT dédiés à la zone RTSO (Région Terre Sud-Ouest).  
 Ils fournissent une vision structurée des acteurs, zones sensibles, flux, risques et sources exploitables pour une veille opérationnelle.
