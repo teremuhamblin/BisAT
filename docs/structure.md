@@ -3,6 +3,15 @@
 - Arborescence du projet **BisAT**
 ```text
 BisAT/
+├─ .github
+│   ├── .github/
+│   │   ├── ci.yml
+│   │   ├── release.yml
+│   │   └── securoty.yml
+│   ├─ bug_report.md
+│   │   ├── feature_request.md
+│   │   └── bug_report.md
+│   ├── PULL_REQUEST_TEMPLATE.md   │   └─ FUNDING.yml
 │
 ├── docs/
 │   ├── doctrine.md
