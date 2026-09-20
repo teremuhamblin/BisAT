@@ -1,8 +1,8 @@
 ###### README.md >> markdown 
 # 🛰️ BisAT
 - Module Opérationnel `src/`
-Le répertoire `src/` constitue le **noyau opérationnel** du Bureau d’Intelligence Souterraine — BisAT.  
-Il regroupe l’ensemble des capacités techniques : **SIGINT**, **HUMINT**, **CyberOps**, **Fusion**, et **Atlas**.
+   - Le répertoire `src/` constitue le **noyau opérationnel** du *Bureau d’Intelligence Souterraine — BisAT*.  
+   - Il regroupe l’ensemble des capacités techniques : **SIGINT**, **HUMINT**, **CyberOps**, **Fusion**, et **Atlas**.
 ```md
 - Chaque module est conçu selon une doctrine commune :
    - **Modularité**
@@ -17,15 +17,15 @@ Il regroupe l’ensemble des capacités techniques : **SIGINT**, **HUMINT**, **C
 ### 📚 Structure des modules
 ### `sigint/`
 - Renseignement d’origine électromagnétique  
-- Analyse, cartographie, extraction et classification des flux.
+   - Analyse, cartographie, extraction et classification des flux.
 
 ### `humint/`
 - Renseignement humain  
-- Profilage comportemental, analyse des interactions, détection d’anomalies humaines.
+   - Profilage comportemental, analyse des interactions, détection d’anomalies humaines.
 
 ### `cyberops/`
 - Opérations cyber  
-- Neutralisation, simulation, détection de deepfakes, contre‑ingérence numérique.
+   - Neutralisation, simulation, détection de deepfakes, contre‑ingérence numérique.
 
 ### `fusion/`
 - Intelligence Fusion  
@@ -33,12 +33,12 @@ Il regroupe l’ensemble des capacités techniques : **SIGINT**, **HUMINT**, **C
 
 ### `atlas/`
 - Cartographie & Zones critiques  
-- Détection de clusters, zones rouges, cartographies dynamiques.
+   - Détection de clusters, zones rouges, cartographies dynamiques.
 
 ---
 
 ### 🧭 Philosophie technique
-BisAT applique une approche **militaire, méthodique, froide**, inspirée des doctrines COMCYBER :
+   - *BisAT* applique une approche **militaire, méthodique, froide**, inspirée des doctrines COMCYBER :
 ```md
 - **Code minimaliste**
 - **Fonctions explicites**
@@ -51,7 +51,7 @@ BisAT applique une approche **militaire, méthodique, froide**, inspirée des do
 
 ### 🔧 Standards internes
 - Python 3.11+
-- Style : PEP8 + conventions BisAT
+- Style : `PEP8` + conventions BisAT
 - Logging : `bisat.logger`
 - Documentation : Markdown + schémas dans `assets/schemas/`
 
