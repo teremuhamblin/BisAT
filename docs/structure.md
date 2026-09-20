@@ -11,9 +11,12 @@ BisAT/
 │   ├─ bug_report.md
 │   │   ├── feature_request.md
 │   │   └── bug_report.md
-│   ├── PULL_REQUEST_TEMPLATE.md   │   └─ FUNDING.yml
+│   ├── PULL_REQUEST_TEMPLATE.md
+│   └─ FUNDING.yml
 │
 ├── docs/
+│   ├── RTSO/
+│   │   ├── osint/
 │   ├── doctrine.md
 │   ├── architecture.md
 │   ├── organigramme.md
