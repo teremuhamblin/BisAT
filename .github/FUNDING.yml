@@ -8,21 +8,21 @@
 github: teremuhamblin
 
 # --- Plateformes de soutien communautaire ---
-patreon: teremuhamblin
-ko_fi: teremuhamblin
-buy_me_a_coffee: teremuhamblin
-liberapay: teremuhamblin
+#patreon: teremuhamblin
+#ko_fi: teremuhamblin
+#buy_me_a_coffee: teremuhamblin
+#liberapay: teremuhamblin
 
 # --- Open Collective (projets open-source structurés) ---
-open_collective: bisat-project
+#open_collective: bisat-project
 
 # --- Liens institutionnels / personnalisés ---
 custom:
   - "https://github.com/sponsors/teremuhamblin"
-  - "https://patreon.com/teremuhamblin"
-  - "https://ko-fi.com/teremuhamblin"
-  - "https://buymeacoffee.com/teremuhamblin"
-  - "https://opencollective.com/bisat-project"
+#  - "https://patreon.com/teremuhamblin"
+#  - "https://ko-fi.com/teremuhamblin"
+#  - "https://buymeacoffee.com/teremuhamblin"
+#  - "https://opencollective.com/bisat-project"
 
 # --- Section Cyberdéfense / ESSD (optionnelle) ---
 institutionnel:
