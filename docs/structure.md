@@ -1,6 +1,8 @@
 ###### structure.md >> markdown 
 # 🜙 Structure
 - Arborescence du projet **BisAT**
+---
+
 ```text
 BisAT/
 ├─ .github
@@ -51,12 +53,18 @@ BisAT/
 ├── README.md
 └── LICENSE
 ```
+---
 
 ### 🜙 Explication des dossiers
-- **docs/** — Documentation institutionnelle, architecture, organigrammes, doctrine.  
-- **src/** — Code opérationnel simulé, organisé par sections BISAT.  
-- **assets/** — Logos, insignes, schémas, visuels institutionnels.  
-- **README.md** — Présentation officielle du projet.  
-- **LICENSE** — Mentions légales & cadre d’utilisation.  
+- **docs/**
+   - Documentation institutionnelle, architecture, organigrammes, doctrine.  
+- **src/**
+   - Code opérationnel simulé, organisé par sections *BISAT*.  
+- **assets/**
+   - Logos, insignes, schémas, visuels institutionnels.  
+- **README.md**
+   - Présentation officielle du projet.  
+- **LICENSE**
+   - Mentions légales & cadre d’utilisation.  
 
 ---
