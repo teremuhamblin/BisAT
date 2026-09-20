@@ -7,7 +7,8 @@
 - **doctrine.md** — Doctrine opérationnelle BISAT  
 - **architecture.md** — Architecture stratégique & technique  
 - **organigramme.md** — Organigramme institutionnel SECRET‑DÉFENSE  
-- **mentions-legales.md** — Mentions légales & cadre d’utilisation  
+- **mentions-legales.md** — Mentions légales & cadre d’utilisation
+- **RTSO** — Dossier des modules 
 
 ### Objectif
 Fournir une base conceptuelle claire, structurée et institutionnelle pour comprendre :
@@ -19,4 +20,4 @@ Fournir une base conceptuelle claire, structurée et institutionnelle pour compr
 ```
 
 ### Statut
-Documentation **conceptuelle**, **pédagogique**, **non affiliée** aux institutions militaires françaises.
+Documentation **conceptuelle**, **pédagogique** aux institutions militaires françaises.
