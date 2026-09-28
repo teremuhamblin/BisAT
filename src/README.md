@@ -1,7 +1,10 @@
-###### README.md >> markdown 
+###### README.md >> markdown
+
+---
+
 # 🛰️ BisAT
 - Module Opérationnel `src/`
-   - Le répertoire `src/` constitue le **noyau opérationnel** du *Bureau d’Intelligence Souterraine — BisAT*.  
+   - Le répertoire `src/` constitue le **noyau opérationnel** du *Bureau d’Intelligence Souterraine **BisAT**.  
    - Il regroupe l’ensemble des capacités techniques : **SIGINT**, **HUMINT**, **CyberOps**, **Fusion**, et **Atlas**.
 ```md
 - Chaque module est conçu selon une doctrine commune :
@@ -12,9 +15,10 @@
    - **Séparation stricte des responsabilités**
 ```
 
----
-
 ### 📚 Structure des modules
+### `SRC/`
+- Dossier de conception "WEB"
+
 ### `sigint/`
 - Renseignement d’origine électromagnétique  
    - Analyse, cartographie, extraction et classification des flux.
