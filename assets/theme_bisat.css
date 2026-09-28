@@ -1,8 +1,10 @@
 /* ============================
-   🎖️ BISAT+ — Theme officiel
+   🎖️ BISAT+ — Theme officiel v9.0.0
+   Armée de Terre — Cyberdéfense
    ============================ */
 
 :root {
+  /* --- Palette principale --- */
   --bisat-blue: #1e3a8a;
   --bisat-blue-light: #2a4db8;
   --bisat-dark: #0a0f1c;
@@ -12,6 +14,26 @@
   --bisat-grey: #9ca3af;
   --bisat-grey-light: #d1d5db;
   --bisat-green: #10b981;
+
+  /* --- Palette v9.0.0 : Classification interne --- */
+  --bisat-n0: #6b7280;     /* Public */
+  --bisat-n1: #2563eb;     /* Restreint */
+  --bisat-n2: #9333ea;     /* Confidentiel */
+  --bisat-n3: #e11d48;     /* Secret */
+  --bisat-n4: #7f1d1d;     /* Très Secret */
+
+  /* --- Palette v9.0.0 : Sections opérationnelles --- */
+  --sigint: #0ea5e9;
+  --humint: #f59e0b;
+  --cyberops: #ef4444;
+  --fusion: #10b981;
+  --atlas: #6366f1;
+  --doctrine: #d1d5db;
+
+  /* --- Enterprise / Audit / Sécurité interne --- */
+  --enterprise-audit: #14b8a6;
+  --enterprise-governance: #475569;
+  --enterprise-critical: #b91c1c;
 
   --bisat-radius: 4px;
   --bisat-transition: 0.18s ease-in-out;
@@ -215,4 +237,63 @@ h3 {
   0% { opacity: 1; }
   50% { opacity: 0.45; }
   100% { opacity: 1; }
+}
+
+/* ============================
+   v9.0.0 — Nouveaux modules
+   ============================ */
+
+/* --- Panneaux de classification --- */
+.bisat-classification {
+  padding: 0.8rem 1rem;
+  border-radius: var(--bisat-radius);
+  font-weight: 600;
+  margin: 1rem 0;
+  text-transform: uppercase;
+}
+
+.bisat-n0 { background-color: var(--bisat-n0); }
+.bisat-n1 { background-color: var(--bisat-n1); }
+.bisat-n2 { background-color: var(--bisat-n2); }
+.bisat-n3 { background-color: var(--bisat-n3); }
+.bisat-n4 { background-color: var(--bisat-n4); }
+
+/* --- Cartouches doctrinaux --- */
+.bisat-doctrine-box {
+  border-left: 4px solid var(--doctrine);
+  padding: 1rem;
+  background-color: rgba(209, 213, 219, 0.1);
+  margin: 1rem 0;
+}
+
+/* --- Badges tactiques --- */
+.bisat-badge {
+  display: inline-block;
+  padding: 0.3rem 0.6rem;
+  border-radius: var(--bisat-radius);
+  font-size: 0.75rem;
+  font-weight: 600;
+  margin-right: 0.4rem;
+}
+
+.bisat-badge-sigint { background-color: var(--sigint); }
+.bisat-badge-humint { background-color: var(--humint); }
+.bisat-badge-cyberops { background-color: var(--cyberops); }
+.bisat-badge-fusion { background-color: var(--fusion); }
+.bisat-badge-atlas { background-color: var(--atlas); }
+.bisat-badge-doctrine { background-color: var(--doctrine); }
+
+/* --- Mode Enterprise --- */
+.bisat-enterprise {
+  border-left: 4px solid var(--enterprise-governance);
+  background-color: rgba(71, 85, 105, 0.15);
+  padding: 1rem;
+  margin: 1rem 0;
+}
+
+.bisat-enterprise-critical {
+  border-left: 4px solid var(--enterprise-critical);
+  background-color: rgba(185, 28, 28, 0.15);
+  padding: 1rem;
+  margin: 1rem 0;
 }
