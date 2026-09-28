@@ -1,26 +1,58 @@
-##############################################
-# 🪖 GITIGNORE MILITAIRE — BISAT v7.0
-# Inspiré COMCYBER / DGA / DIRISI / Armée de Terre
-##############################################
+###############################################################
+# 🪖 GITIGNORE ULTIMATE — BISAT v10.0.0
+# Niveau COMCYBER / DIRISI / DGA — Multi-langages & Multi-modules
+# Projet : BISAT (Battlefield Intelligence System & Analysis Tool)
+###############################################################
 
-# Logs & Temp
+############################
+# 🔥 LOGS / TEMP / CACHE
+############################
 *.log
 *.log.*
 logs/
+log/
 tmp/
 temp/
 cache/
 session/
+*.pid
+*.lock
+*.bak
+*.swp
+*.swo
+*.tmp
+*.old
+*.retry
 
-# Systèmes sensibles
+############################
+# 🔒 CLASSIFICATION / SÉCURITÉ
+############################
 *.enc
 *.classified
-*.sd
-*.cd
 *.secure
 *.crypto
+*.mil
+*.secret
+*.sd
+*.cd
+*.key
+*.pem
+*.crt
+*.p12
+*.der
 
-# Python
+# Dossiers sensibles (fictifs mais cohérents)
+SD/
+CD/
+AFCI/
+ESSD/
+RESTRICTED/
+CONFIDENTIAL/
+MIL-OPS/
+
+############################
+# 🐍 PYTHON
+############################
 __pycache__/
 *.pyc
 *.pyo
@@ -29,14 +61,53 @@ __pycache__/
 .eggs/
 build/
 dist/
+pip-wheel-metadata/
+.pytest_cache/
+.mypy_cache/
+ruff_cache/
+.ipynb_checkpoints/
 
-# Node / JS
+############################
+# 📦 NODE / JS / UI
+############################
 node_modules/
 npm-debug.log*
 yarn-error.log*
 .pnpm-store/
+dist/
+.next/
+.nuxt/
+.eslintcache
+.stylelintcache
+.vscode/
+.sass-cache/
+parcel-cache/
+vite-cache/
 
-# OSINT / Cyber
+############################
+# 🧪 TESTS / COVERAGE
+############################
+coverage/
+.coverage
+htmlcov/
+pytest_cache/
+test-output/
+junit.xml
+reports-test/
+
+############################
+# 🐳 DOCKER / CONTAINERS
+############################
+docker-data/
+docker-cache/
+*.tar
+*.img
+*.sif
+*.squashfs
+
+############################
+# 🌐 OSINT / CYBER MODULES
+############################
 intel/
 missions/
 ops/
@@ -44,29 +115,95 @@ reports/
 shadow/
 deepfake/
 botnets/
+scanners/
+modules/
+tools/
+exploits/
+payloads/
+fingerprints/
+network-dumps/
+pcap/
+pcapng/
 
-# Assets
+############################
+# 🖼️ ASSETS TEMPORAIRES
+############################
 *.svg.tmp
 *.png.tmp
 *.jpg.tmp
+*.jpeg.tmp
+*.webp.tmp
 
-# Environnements
+############################
+# 🔧 ENVIRONNEMENTS
+############################
 .env
 .env.*
 venv/
 .venv/
+env/
+ENV/
+virtualenv/
+python-env/
 
-# Tests
-coverage/
-pytest_cache/
-htmlcov/
+############################
+# 📄 PDF / EXPORTS / RENDUS
+############################
+pdf-output/
+pdf-cache/
+*.pdf.tmp
+*.pdf.bak
+*.pdf.lock
 
-# CI/CD
+############################
+# ⚙️ CI/CD — GitHub / GitLab
+############################
 .github/workflows/*.tmp
 .github/workflows/*.bak
+.github/actions-cache/
+*.retry
+*.cache
+ci-cache/
+pipeline-cache/
 
-# Secret Défense (fictif)
-SD/
-CD/
-AFCI/
-ESSD/
+############################
+# 🖥️ SYSTÈME / OS
+############################
+.DS_Store
+Thumbs.db
+Desktop.ini
+*.lnk
+*.shortcut
+*.thumb
+
+############################
+# 📱 ANDROID / TERMUX / USERLAND
+############################
+termux-cache/
+termux-temp/
+userland-cache/
+userland-temp/
+android-temp/
+android-cache/
+
+############################
+# 🗄️ ARCHIVES / COMPRESSION
+############################
+*.zip
+*.rar
+*.7z
+*.tar.gz
+*.tar.xz
+*.iso
+*.img
+
+############################
+# 🧩 BISAT — MODULES SPÉCIFIQUES
+############################
+atlas-cache/
+doctrine-cache/
+classification-cache/
+ui-cache/
+pdf-style-cache/
+bisat-cache/
+bisat-temp/
