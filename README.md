@@ -148,7 +148,8 @@ Documentation conceptuelle :
 - Conformité et diffusion (ATLAS / DOCTRINE)
 ```
 
-🜞 11. Cadre de classification interne (Nouveau v9.0.0)
+### 🜞 11. Cadre de classification interne
+- v9.0.0
 | Niveau | Désignation | Description |
 |--------|-------------|-------------|
 | N0 | Public | Diffusion libre |
@@ -157,53 +158,58 @@ Documentation conceptuelle :
 | N3 | Secret | Accès autorisé uniquement |
 | N4 | Très Secret | Cellule BisAT uniquement |
 
----
+### 🜞 12. Cadre de sécurité interne
+- v9.0.0
+```markdown
+   - Contrôle des accès  
+   - Journalisation des opérations  
+   - Vérification des flux entrants/sortants  
+   - Protocoles de neutralisation  
+   - Procédures de confinement  
+   - Audit interne (Enterprise v8.6.0)
+```
 
-🜞 12. Cadre de sécurité interne (Nouveau v9.0.0)
-- Contrôle des accès  
-- Journalisation des opérations  
-- Vérification des flux entrants/sortants  
-- Protocoles de neutralisation  
-- Procédures de confinement  
-- Audit interne (Enterprise v8.6.0)
+### 🜞 13. Cadre de conformité
+- v9.0.0
+   - Alignement COMCYBER  
+   - Alignement DGA  
+   - Alignement DIRISI  
+   - Alignement doctrine cyber française  
+   - Alignement normes internes BisAT
 
----
+### 🜞 14. Cadre de diffusion
+- v9.0.0
+   - Diffusion contrôlée  
+   - Diffusion restreinte  
+   - Diffusion interne BisAT  
+   - Diffusion cellule spécialisée  
+   - Diffusion interdite (N4)
 
-🜞 13. Cadre de conformité (Nouveau v9.0.0)
-- Alignement COMCYBER  
-- Alignement DGA  
-- Alignement DIRISI  
-- Alignement doctrine cyber française  
-- Alignement normes internes BisAT
-
----
-
-🜞 14. Cadre de diffusion (Nouveau v9.0.0)
-- Diffusion contrôlée  
-- Diffusion restreinte  
-- Diffusion interne BisAT  
-- Diffusion cellule spécialisée  
-- Diffusion interdite (N4)
-
----
-
-🜞 15. Cadre de responsabilité (Nouveau v9.0.0)
+### 🜞 15. Cadre de responsabilité
+- v9.0.0
+```text
 - Division Sécurité : supervision  
 - Section DOCTRINE : conformité  
 - Section CYBEROPS : intervention  
 - Section SIGINT : surveillance  
 - Section HUMINT : analyse comportementale  
 - Section FUSION : agrégation multi‑sources  
-- Section ATLAS : cartographie stratégique  
+- Section ATLAS : cartographie stratégique
+```
 
 ---
+---
 
-🜔 Version v9.0.0 — Statut
+### 🜔 Version v9.0.0
+>Statut
+```text
 ✔ Version majeure stabilisée  
 ✔ Compatible Enterprise v8.6.0  
 ✔ Compatible architecture multi‑sections  
 ✔ Compatible workflows multi‑modules  
 ✔ Compatible documentation étendue  
 ✔ Compatible .github
+```
 
+---
 ---
